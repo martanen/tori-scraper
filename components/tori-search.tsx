@@ -37,13 +37,13 @@ export default function ToriSearch() {
     <div className="w-full max-w-6xl mx-auto p-4">
       <Card className="mb-8">
         <CardHeader>
-          <CardTitle>Huonekaluhaku Tori.fi</CardTitle>
+          <CardTitle>Torittaja</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="flex gap-4">
             <Input
               type="text"
-              placeholder="Etsi huonekaluja..."
+              placeholder="Etsi jotain..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               className="flex-1"
